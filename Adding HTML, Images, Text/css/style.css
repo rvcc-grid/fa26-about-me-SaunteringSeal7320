@@ -1,0 +1,30 @@
+body {
+    font-family:Roboto;
+    background-color: #D68A00;
+    color: #005ED6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Noto Sans JP";
+    font-size:30pt;
+}
+
+header {
+    text-align:center;
+}
+
+#hero, footer {
+    color:#D6008F;
+    border: 2pt solid #827358;
+    background-color: #19D600;
+    text-align:center;
+    padding:10px;
+}
+
+#hero img {
+    width:300px;
+}
+
+#bio {
+    text-align: center;
+}
