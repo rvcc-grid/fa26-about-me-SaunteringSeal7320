@@ -7,6 +7,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family:"Noto Sans JP";
     font-size:30pt;
+    text-align: center;
 }
 
 header {
@@ -27,4 +28,24 @@ header {
 
 #bio {
     text-align: center;
+}
+
+#hobbies ul li:nth-child(1){
+    color: red;
+}
+
+#hobbies ul li:nth-child(2){
+    color: blue;
+}
+
+#hobbies ul li:nth-child(3){
+    color: green;
+}
+
+#hobbies ul li:nth-child(4){
+    color: yellow;
+}
+
+#hobbies ul li:nth-child(5){
+    color: pink;
 }
