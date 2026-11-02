@@ -60,12 +60,36 @@ header {
 
 #gallery {
     border: 2px solid #827358;
+    margin-bottom: 2rem;
 }
 
 #gallery_img{
-    max-width:100% ;
+    max-width: 100%;
 }
 
 #gallery figure {
     text-align: center;
+}
+
+/* Literature */
+
+#lit {
+    border: 2px solid #827358;
+    margin-bottom: 2rem;
+}
+
+#lit div {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+/* Dropcaps */
+
+#lit div p:first-letter {
+    color: black;
+    float: left;
+    font-size: 3em;
+    margin-right: .25em
+    line-height: .65;
+    border: 1px solid black;
 }
